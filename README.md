@@ -18,7 +18,7 @@ A simple chrome extension to pop YouTube out into a cleaner, more minimal window
 
 1. Download the [latest release](https://github.com/tobelious/youtubepopout/releases/latest)
 
-2. Extract **tobelious-yt-popout.zip**
+2. Extract files
 
 4. Open a Chromium browser and go to:
 

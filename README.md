@@ -14,27 +14,25 @@ A simple chrome extension to pop YouTube out into a cleaner, more minimal window
 
 ## Installation
 
-### Load Unpacked Extension
+### Loading Unpacked Extension
 
 1. Download the [latest release](https://github.com/tobelious/youtubepopout/releases/latest)
-
-2. Extract files
-
-4. Open a Chromium browser and go to:
-
+2. Extract the project folder
+3. Open a Chromium browser and go to:
 ```txt
 chrome://extensions
 ```
+4. Enable **Developer mode**
+5. Click **Load unpacked**
+6. Select the extracted project folder
 
-3. Click **Load unpacked**
-
-5. Select the project folder
+**Note**: If you're having issues, make sure you're not selecting a parent folder of the extension folder.
 
 ## Usage
 
 1. Get a YouTube video link/ID
 2. Click the extension icon
-3. Paste in your link/ID
+3. Paste your link/ID
 4. Adjust the settings to your preference
 5. Click the pop out button
 
@@ -46,7 +44,9 @@ youtube-popout-extension/
 ├── popup.html
 ├── popup.css
 ├── popup.js
-└── icon.png
+├── icon.png
+├── example.png
+└── README.md
 ```
 
 ## License & Permission

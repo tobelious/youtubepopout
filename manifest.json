@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Popout",
+  "version": "1.0",
+  "description": "Pop YouTube out into a cleaner, more minimal window.",
+  "author": "Tobelious",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube Popout"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}

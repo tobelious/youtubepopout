@@ -2,12 +2,10 @@
 
 A simple chrome extension to pop YouTube out into a cleaner, more minimal window.
 
-![Example](./example.png)
-
 ## Features
 
 * Pop out any YouTube video into a separate window
-* Lightweight and simple UI
+* Lightweight and very simple
 * Fast and easy to use
 * Built for Chrome Extensions Manifest V3
 * Great for multitasking while watching videos
@@ -30,22 +28,16 @@ chrome://extensions
 
 ## Usage
 
-1. Get a YouTube video link/ID
-2. Click the extension icon
-3. Paste your link/ID
-4. Adjust the settings to your preference
-5. Click the pop out button
+1. Open a YouTube video
+2. Click the extension icon in the extensions tray
 
 ## Project Structure
 
 ```txt
 youtube-popout-extension/
 ├── manifest.json
-├── popup.html
-├── popup.css
-├── popup.js
+├── background.js
 ├── icon.png
-├── example.png
 └── README.md
 ```
 

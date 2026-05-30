@@ -5,10 +5,15 @@
   "description": "Pop YouTube out into a cleaner, more minimal window.",
   "author": "Tobelious",
   "action": {
-    "default_popup": "popup.html",
     "default_title": "YouTube Popout"
+  },
+  "background": {
+    "service_worker": "background.js"
   },
   "icons": {
     "128": "icon.png"
-  }
+  },
+  "permissions": [
+    "activeTab"
+  ]
 }

@@ -34,7 +34,7 @@ chrome://extensions
 ## Project Structure
 
 ```txt
-youtube-popout-extension/
+popout-[ver]/
 ├── manifest.json
 ├── background.js
 ├── icon.png
